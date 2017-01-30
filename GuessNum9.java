@@ -20,7 +20,6 @@ public class GuessNum9 {
 		int count = 0;
 		
 		int rand = (int)(Math.random()*(100-1) + 1);
-		System.out.println(rand);
 		
 		System.out.println("I am thinking of a number 1 through 100. \n Can you guess my number?");
 
@@ -36,7 +35,6 @@ public class GuessNum9 {
 				if(response.equals("y")){
 					count = 0;
 					rand = (int)(Math.random()*(100-1) + 1);
-					System.out.println(rand);
 					System.out.println("I am thinking of a number 1 through 100. \n Can you guess my number?");
 				}
 				if(response.equals("n")) play = false;
